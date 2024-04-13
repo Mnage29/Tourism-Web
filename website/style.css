@@ -1,0 +1,12 @@
+.mid{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
+.mid img{
+    border-radius: 14px;
+}
+.map{
+    margin: 50px;
+    /* float: right; */
+}

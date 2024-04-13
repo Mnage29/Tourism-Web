@@ -1,0 +1,400 @@
+/* start navbar */
+.navbar{
+    background-color:yellowgreen;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+.nav-item{
+    padding: 0px 16px;
+}
+.nav-item:hover{
+    /* background-color: white; */
+    /* border-radius: 4px; */
+}
+.nav-item:hover .nav-link{
+    color: rgb(239, 135, 25);
+}
+.navbar-brand{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.navbar-brand i{
+    font-size: 40px;
+    color: rgb(206, 232, 236);
+}
+.img-1{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    /* border-radius: 2px; */
+}
+/* end nav bar */
+
+
+.box-1 {
+    font-family: Roboto;
+    /* background-color: red; */
+    color:white;
+    padding: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-container {
+    height: 100vh;
+    background-image: url("hills.jpg");
+    background-size: cover;
+    padding: 100px;
+}
+
+/* Start Carousel */
+
+
+
+
+/* .bg1{
+    background:url("nature-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    position: relative;
+}
+.bg2{
+    background: url("nature-2.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    position: relative;
+}
+.bg3{
+    background: url("nature-3.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    position: relative;
+} */
+
+
+.car-card{
+    background-color: rgba(208, 236, 208, 0.363);
+    padding: 200px;
+    margin-bottom: 0px;
+    transition-delay: 200ms;
+}
+.caption{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.caption h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.caption p{
+    font-size: 30px;
+    text-align: center;
+}
+.readmore{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px;
+    color: ghostwhite;
+    display: inline-block;
+    font-weight: 30px;
+    /* margin: 10px 0px; */
+}
+.readmore:hover{
+    background-color: white;
+    color: rgb(17, 0, 79);
+}
+
+/* End Carousel */
+
+/* about */
+
+section{
+    padding: 60px 0px;
+}
+.main-head{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+.main-head::before{
+    content: "";
+    width: 100px;
+    background-color: brown;
+    height: 1px;
+    margin: 15px;
+    display: inline-block;
+}
+.main-head::after{
+    content: "";
+    width: 100px;
+    background-color: brown;
+    height: 1px;
+    margin: 15px;
+    display: inline-block;
+}
+.sub-head{
+    text-align: center;
+    display: block;
+}
+.about p, li{
+    line-height: 30px;
+    font-weight: 700;
+}
+.about ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 700;
+}
+.about i{
+    padding: 10px;
+    color: teal;
+    font-size: 20px;
+}
+.aboutlearnmore{
+    color: brown;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid crimson;
+    display: inline-block;
+    margin-top: 20px;
+}
+.aboutlearnmore:hover{
+    color: white;
+    background-color: brown;
+    transition: 0.5s;
+}
+.mycard{
+    padding: 20px;
+    box-shadow: 0px 0px 30px;
+    text-align: center;
+    margin: 0px 22px;
+    border-radius: 14px;
+}
+.mycard i{
+    font-size: 40px;
+}
+.counter{
+    font-size: 40px;
+    font-weight: 900;
+}
+.mycard a{
+    text-decoration: none;
+    color: brown;
+}
+.mycard a:hover{
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.cardtitle{
+    font-size: 30px;
+    font-weight: 00;
+}
+/* help */
+
+.help{
+    border-radius: 24px;
+    margin: 10px;
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+}
+.help p{
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.phone{
+    font-size: 26px;
+
+}
+/* end help */
+
+/* services */
+/* .services{
+    background-color: beige;
+} */
+.service-card{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px;
+
+    
+}
+.service-card i{
+    font-size: 20px;
+    color: orange;
+}
+.service-card a{
+    text-decoration: none;
+    color: orange;
+}
+
+.service-card a:hover{
+    letter-spacing: 1px;
+    transition: 0.5s;
+    color: orange;
+}
+/* end services */
+
+
+/*  features */
+
+.favourite-places-bg-container {
+    height: 100vh;
+    background-size: cover;
+    padding: 24px;
+}
+.destination{
+    background-color:beige;
+}
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 6px;
+    background-color:rgb(232, 220, 177);
+    letter-spacing: 1px;
+    border-radius: 18px;
+}
+
+.favourite-place-card-heading {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 26px;
+}
+
+.favourite-place-card-image {
+    width: 200px;
+    height: 240px;
+    padding: 10px;
+    border-radius: 18px;
+}
+.explore-more{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    text-decoration: none;
+    color: orange;
+}
+.explore-more:hover{
+    letter-spacing: 3px;
+    transition: 0.2s;
+    color: orange;
+}
+/* end features */
+
+/* team */
+/* .team{
+    background-color:lightgrey;
+} */
+.teamcard{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.teamcard img{
+    border-radius: 5px;
+
+}
+.teamcard h3{
+    margin-top: 5px;
+}
+.teamcard p{
+    color: grey;
+}
+.teamcard i{
+    padding: 10px;
+    font-size: 20px;
+}
+.teamcard i:hover {
+    color: mediumblue;
+    cursor: pointer;
+}
+.teamcard a{
+    color: #000000;
+}
+/* end team */
+
+/* gallery */
+
+/* .gallery{
+    background-color:beige;
+} */
+.tab-content{
+    background-color: white;
+    padding: 40px;
+}
+.nav-tabs .nav-link{
+    background-color:blue ;
+    color: white;
+}
+
+/* end gallery */
+
+/* contact */
+
+.contact{
+    background-color: lightgrey;
+}
+.contact i{
+    font-size: 38px;
+    color: #ff9041;
+    font-weight: 900;
+}
+.contact-btn{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 4px 26px;
+    margin-top: 20px;
+}
+.contact-btn:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    transition: 0.1s;
+}
+/* end contact */
+.gallery img{
+    height: 220px;
+    width: 350px;
+    border-radius: 20px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customized Sign-up Form</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<style>
+/* Custom styles for the background image */
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Custom styles for the form card */
+.custom-card {
+    margin-top: -100px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(30px);
+}
+
+/* Additional custom styles */
+.text-custom {
+    color: #333;
+}
+
+/* Custom styles for the social media icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons .fab {
+    background: linear-gradient(to right, #3b5998, #55acee, #dd4b39);
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.social-icons .fab:hover {
+    transform: scale(1.2);
+}
+</style>
+</head>
+
+<body>
+<!-- Section: Design Block -->
+<section class="text-center">
+<!-- Background image -->
+<div class="p-5 bg-image" style="
+    background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
+    height: 300px;
+    "></div>
+<!-- Background image -->
+
+<div class="container">
+    <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card custom-card">
+        <div class="card-body py-5 px-md-5">
+            <h2 class="fw-bold mb-5 text-custom">Sign up now</h2>
+            <form>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                    <label for="firstName">First name</label>
+                </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                    <label for="lastName">Last name</label>
+                </div>
+                </div>
+            </div>
+            <div class="form-floating mb-4">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+            </div>
+            <div class="form-floating mb-4">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password">Password</label>
+            </div>
+            <button type="button" onclick="window.location.href = '/tourism.html';" class="btn btn-primary btn-block mb-4">Sign up</button>
+            <p class="text-custom">or sign up with:</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<!-- Section: Design Block -->
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</body>
+
+</html>

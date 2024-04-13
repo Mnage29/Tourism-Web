@@ -1,0 +1,22 @@
+.card{
+    border-radius: 34px;
+}
+.card img{
+    width: 415px;
+    height: 310px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.card:hover{
+    /* box-shadow: 0px 0px 0px 10px black;
+    transition: 0.5s;
+    background-color: rgb(175, 121, 82); */
+}
+.btn{
+    font-weight: 600;
+    border-radius: 16px;
+}
+.justify-content-end{
+    float: right;
+    padding-left: 350px;
+}
